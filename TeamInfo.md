@@ -12,8 +12,8 @@
 | Member1     |  tanmay4@illinois.edu  |
 | Member2     |      Anitej Chanda     |
 | Member2     |  anitejc2@illinois.edu |
-| Member3     |                        |
-| Member3     |                        |
+| Member3     |     Bhavika Kothari    |
+| Member3     |  bhavika5@illinois.edu |
 
 ## Project Information
 

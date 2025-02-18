@@ -17,11 +17,11 @@
 
 ## Project Information
 
-|   Info      |        Description     |
-| ----------- | ---------------------- |
-|  Title      |       ProjectTitle     |
-| System URL  |      link_to_system    |
-| Video Link  |      link_to_video     |
+|   Info      |           Description          |
+| ----------- | ------------------------------ |
+|  Title      | Flight Delay Prediction System |
+| System URL  |          link_to_system        |
+| Video Link  |          link_to_video         |
 
 ## Project Summary
 Flight Delay Prediction System

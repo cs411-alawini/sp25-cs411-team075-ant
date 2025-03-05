@@ -1,18 +1,28 @@
+Conceptual and Logical Database Design
+
+ER Diagram:
+
 ![Entity_Relationship_Diagram](https://github.com/user-attachments/assets/06ed5055-d852-44a7-821b-af9878641516)
 
-Assumptions
+Assumptions:
+
 User_Alert: Users can set multiple alerts based on delay thresholds.
 Flight_Status: A flight has only one status entry per date.
 Weather_Event: Each weather event affects only one airport.
 Delay_Prediction: Multiple predictions can exist for the same flight at different times.
 
-Entity-Relationship (ER) Diagram Analysis
+Entity-Relationship (ER) Diagram Analysis:
+
 The following entities and their attributes were identified:
+
 Entities:
+
 User
 Attributes: userId (PK), username, email, phoneNumber, password, createdAt, updatedAt
+
 User_Alert
 Attributes: alertId (PK), userId (FK), emailAlert, smsAlert, delayThreshold, createdAt
+
 Relationship: A User can have multiple alerts (1-Many relationship with User).
 Airport
 Attributes: airportCode (PK), name, city, state, locationLat, locationLng, timeZone, zipCode
